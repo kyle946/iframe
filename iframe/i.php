@@ -22,7 +22,7 @@ define("APP_PATH",IFRAME_ROOT."../".APP_NAME.DIRECTORY_SEPARATOR);
 //调式开关
 defined('APP_DEBUG') or define('APP_DEBUG',true); // 是否开启模式
 //默认显示错误
-ini_set('display_errors', 0);
+ini_set('display_errors', 1);
 //日志记录开关
 define('LOG',false);
 //缓存开关
